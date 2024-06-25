@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(101, 204, 5);
+}
+
+
+.rating{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    background-color: rgb(198, 198, 198);
+    -webkit-mask-image: url(Golden_star.svg);
+    mask-image: url(Golden_star.svg);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+.item-full{
+    background-color: yellow;
+}
